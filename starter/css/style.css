@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  line-height: 1.5;
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+}
+
+header {
+background-color:#fff;
+width: 100%;
+height: 100px;
+}
+
+header .header-brand {
+font-family: Arial;
+font-size: 26px;
+font-weight: 900;
+color: #111;
+text-transform: uppercase;
+display: block;
+margin: 0 auto;
+text-align: center;
+padding: 20px 0;
+}
+
+header nav ul {
+  display:block;
+  margin: 0 auto;
+  width: fit-content;
+
+}
+
+header nav ul li {
+  display: inline-block;
+    float: none;
+  list-style:none;
+  padding:0% 16px;
+
+}
+
+header nav ul li a {
+  font-family: Arial;
+font-size: 16px;
+color: #111;
+}
+
+header .header-cases {
+  display: none;
+
+}
+
+/*INDEX*/
+
+.hero-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url(/Website-Portfolio/blog_html.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center {
+display: table-cell;
+vertical-align: middle;
+}
+
+.hero-banner h2 {
+  font-family: Arial;
+  font-size: 60px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 900px;
+  text-shadow: 2px 2px 4px #111;
+}
+
+
+.parent_div {
+  display:flex;
+  align-items: center;
+  margin: 60px;
+  padding-bottom: 60px;
+  background-color: rgb(168, 236, 234);
+
+}
+
+#child_div {
+  flex:35%
+
+}
+
+#child_div_2 {
+flex: 200%;
+width: 100%;
+}
+
+#para_1 {
+  position: relative;
+  top: 300px;
+  left: 50px;
+  font-family: 'Arial';
+  text-justify: auto;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.89);
+  text-shadow: 2px 1px 1px #111;
+}
+
+#para_2 {
+  position: relative;
+  top: -160px;
+  left: px;
+  font-family: 'Arial';
+  text-justify: auto;
+  letter-spacing: 4px;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.89);
+  text-shadow: 2px 1px 1px #111;
+  background-color: rgb(53, 48, 48);
+
+}
+
+/* #child_div_3 {
+  display: flex;
+  flex-direction: row;
+  margin: 60px;
+  padding-top: 0px;
+
+  background-color: rgb(136, 201, 221);
+  
+
+} */
+
+
+/* .container {
+  width: 100%;
+  height: 500px;
+  background-color: bisque;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  flex-flow: row wrap;
+
+} */
+
+
+
+
+h1 {
+font-family: Arial;
+font-size: 36px;
+text-align: center;
+color: white;
+word-spacing: 20px;
+letter-spacing: 20px;
+}
+
+
+h2 {
+  font-size: 50px;
+  color: #f3f3f3;
+  text-shadow: 2px 2px 2px black;
+  margin: 60px;
+  padding: 20px;
+  background-color: rgba(49, 175, 197, 0.459);
+  text-align: center;
+  background-size: 100%;
+
+}
+
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+.contact {
+  width: 100%;
+  padding: 0px 60px;
+
+
+}
+
+.img-browser {
+  width: 1000px;
+  height: 600px;
+  background-image: url(/Website-Portfolio/browser.png);
+  background-size: 100%;
+  background-position: center;
+
+}
+
+.wrapper {
+  width: 100%;
+
+}
+
+/* .img-greentech {
+  margin: 0px;
+  padding: 0px 30px 20px;
+  width: 100%;
+
+
+} */
+
+.img-info {
+  width: 100%;
+}
+
+.img-info h2 {
+width: 100%;
+padding: 20px 0px 0px;
+font-family: Arial;
+font-size: 40px;
+color: #111;
+line-height: 44px;
+}
+
+
+.img-info p {
+  width: 100%;
+  padding: 20px 0px 0px;
+  font-family: Arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 24px;
+  }
+
+.img-matrix {
+  display: none;
+
+}
+
+@media only screen and (min-width: 768px) {
+  .img-banner {
+  
+    display: block;
+    width: 100%;
+    padding-bottom: 30px;
+
+  }
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+
+  }
+
+
+
+
+}
+/* @media only screen and (min-width:768px) {
+  .img-matrix
+
+} */
+
+/*MY CODE*/
+.index-links div h3 {
+  margin: 16px 16px 0;
+  width: calc(100% - 20px);
+  height: 100px;
+  background-color: #f2f2f2;
+  font-family: Arial;
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 100px;
+}
+
+.footer {
+background-color: rgb(85, 145, 202);
+font-family: Arial;
+text-align: left;
+font-size: larger;
+
+}
+
+.desk {
+  width: 1000px;
+}
+
+.seo {
+  width: 1000px;
+
+}
